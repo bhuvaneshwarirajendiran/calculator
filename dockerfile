@@ -5,7 +5,7 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file into the container
-COPY calculator-SNAPSHOT.jar /app/calculator-SNAPSHOT.jar
+COPY calculator--SNAPSHOT.jar /app/calculator--SNAPSHOT.jar
 
 # Expose the port your application will use (if necessary)
 # EXPOSE 8080
